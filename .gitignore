@@ -1,0 +1,17 @@
+.idea
+.ipynb_checkpoints
+full_data
+machine_vision
+model
+model_2
+ssd_inception_v2
+car_number_detector
+car_number_test_canny.ipynb
+car_numbers_train
+data_processing.ipynb
+pipeline
+test
+train_car_number.record
+/car_number_detector.py
+/car_numbers_train.csv
+/pipeline.config
