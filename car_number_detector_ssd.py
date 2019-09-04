@@ -151,7 +151,7 @@ def detector(detection_graph, category_index, mode, image_path):
             # Video mode
             elif mode == '1':
 
-                cap = cv2.VideoCapture(1)
+                cap = cv2.VideoCapture(0)
                 while True:
                     # Read frame from camera
                     ret, image_np = cap.read()
