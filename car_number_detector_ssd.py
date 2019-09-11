@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+import logging
 import argparse
 import cv2
 import numpy as np
@@ -9,6 +9,7 @@ from path import Path
 from object_detection.utils import label_map_util
 from object_detection.utils import visualization_utils as vis_util
 
+logging.getLogger('tensorflow').setLevel(logging.ERROR)
 
 def detection_params(image, detection_graph, sess):
     """
