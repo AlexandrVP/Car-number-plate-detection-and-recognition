@@ -15,3 +15,5 @@ train_car_number.record
 /car_number_detector.py
 /car_numbers_train.csv
 /pipeline.config
+/full_data.zip
+/.gitignore
